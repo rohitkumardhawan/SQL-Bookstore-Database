@@ -1,0 +1,7 @@
+LoanTypeID,LoanTypeName,BaseInterestRate_Pct,MinCreditScoreRequired,MaxTerm_Months
+LT-101,Housing Asset Loan,8.25,650,360
+LT-102,Unsecured Personal Credit,13.5,680,60
+LT-103,Automobile Term Loan,9.5,660,84
+LT-104,Higher Education Loan,10.25,600,120
+LT-105,Commercial Enterprise Loan,15,700,180
+LT-106,Micro-Business Credit,16.5,580,48
