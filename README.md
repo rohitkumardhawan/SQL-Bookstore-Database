@@ -70,11 +70,11 @@ Using targeted SQL queries, the project answers common business questions such a
 ```text
 Online-Book-Store-SQL/
 │
+├──README.md               # Project documentation
 ├── Online Book Store.sql   # SQL scripts for database creation & business analysis
 ├── Books.csv               # Book records dataset
 ├── Customers.csv           # Customer profiles dataset
 ├── Orders.csv              # Order transaction logs dataset
-└── README.md               # Project documentation
 
 ```
 
