@@ -77,7 +77,26 @@ Online-Book-Store-SQL/
 ├── Orders.csv              # Order transaction logs dataset
 
 ```
+## 🚀 How to Run This Project
 
+Follow these steps to set up the database and execute the analytical queries locally on your machine using **PostgreSQL** and **pgAdmin**:
+
+### 1. Prerequisites
+* Ensure you have **PostgreSQL** and **pgAdmin 4** installed on your system.
+* Clone or download this repository to your local computer.
+
+### 2. Create the Database
+1. Open **pgAdmin 4** and connect to your local PostgreSQL server.
+2. Right-click on **Databases** ➔ **Create** ➔ **Database...**
+3. Name the database `online_book_store` and click **Save**.
+
+### 3. Create the Database Schema
+1. Right-click on your newly created `online_book_store` database and open the **Query Tool**.
+2. Open the file `Online book store.sql` from this repository, or copy the data definition language (DDL) commands at the top of the script:
+   ```sql
+   CREATE TABLE books (...);
+   CREATE TABLE customers (...);
+   CREATE TABLE orders (...);
 ---
 
 ## 📊 SQL Concepts Covered
